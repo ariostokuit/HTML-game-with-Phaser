@@ -2,3 +2,4 @@
 
 Members:
 Mauricio Macias
+Ariosto Kuit
