@@ -1,5 +1,5 @@
 # HTML-game-with-Phaser
 
 Members:
-Mauricio Macias
+Mauricio Macias,
 Ariosto Kuit
