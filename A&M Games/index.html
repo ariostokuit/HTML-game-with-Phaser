@@ -6,6 +6,10 @@
         
         <!-- Importing from libs folder-->
         <script src = "libs/phaser.js"></script> 
+        <script src = "Boot.js"></script>
+        <script src = "Preloader.js"></script>
+        <script src = "StartMenu.js"></script>
+        <script src = "Game.js"></script>
         <style>
             body{
                 padding: 0;
@@ -21,6 +25,11 @@
             //Setting up Game Canvas
             window.onload = function(){
                 var game = new Phaser.Game(540,960, Phaser.AUTO, 'gameContainer');
+                game.state.add('Boot',A_MGame.Boot);
+                game.state.add('Preloader',A_MGame.Preloader);
+                game.state.add('StartMenu',A_MGame.StartMenu);
+                game.state.add('Game',A_MGame.Game);
+                game.state.start('Boot');
             }
         </script>
     </body>
