@@ -1,6 +1,6 @@
-var A_MGames = {};
+var A_MGame = {};
 
-A_MGames.Boot = function(game){};
+A_MGame.Boot = function(game){};
 
 BunnyDefender.Boot.prototype = {
     preload: function() {

@@ -1,10 +1,10 @@
-A_MGames.Preloader = function(game){
+A_MGame.Preloader = function(game){
 this.preloadBar = null;
 this.titleText = null;
 this.ready = false;
 };
 
-A_MGames.Preloader.prototype = {
+A_MGame.Preloader.prototype = {
 
     preload: function() {
         this.preloadBar = this.add.sprite(this.world.centerX,this.world.centerY,'preloaderBar');
