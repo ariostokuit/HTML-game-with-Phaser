@@ -60,7 +60,7 @@ A_MGame.Game.prototype = {
         this.assignBunnyMovement(b);
     },
 
-    buildSpaceRocks: function(){
+    buildSpaceRocks:function(){
         this.spacerockgroup = this.add.group();
         for(var i = 0; i <this.totalSpacerocks;i++){
             var r = this.spacerockgroup.create(this.rnd.integerInRange(0,this.world.width),
